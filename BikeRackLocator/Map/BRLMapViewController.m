@@ -17,6 +17,9 @@
     GMSMapView *_mapView;
     
     CLLocationManager *locationManager;
+    
+    NSMutableArray *transitStopMarkerList;
+    NSMutableArray *bikePinMarkerList;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -26,6 +29,9 @@
         locationManager = [[CLLocationManager alloc] init];
         [locationManager setDelegate:self];
         [locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
+        
+        transitStopMarkerList = [NSMutableArray array];
+        bikePinMarkerList = [NSMutableArray array];
     }
     return self;
 }
@@ -56,6 +62,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (void)setTransitStops:(NSMutableArray*)transitStops
+{
+
+}
+
 
 #pragma mark - CLLocationManagerDelegate
 

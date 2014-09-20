@@ -9,6 +9,8 @@
 #import "BRLAppDelegate.h"
 #import <GoogleMaps/GoogleMaps.h>
 #import "BRLMapViewController.h"
+#import "BRLTransitStopStorage.h"
+
 
 @implementation BRLAppDelegate
 
@@ -18,7 +20,16 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
+//-------
+//using map controller
+    NSMutableArray *transitStopsList = [NSMutableArray array];
+    [transitStopsList addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:BRL_PA_STATION_INDEX]];
+    [transitStopsList addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:BRL_PA_STATION_INDEX - 1]];
+    [transitStopsList addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:BRL_PA_STATION_INDEX + 1]];
+
     BRLMapViewController *mapController = [[BRLMapViewController alloc] init];
+    [mapController setTransitStops:transitStopsList];
+//-------
     
     [self.window setRootViewController:mapController];
     [self.window makeKeyAndVisible];

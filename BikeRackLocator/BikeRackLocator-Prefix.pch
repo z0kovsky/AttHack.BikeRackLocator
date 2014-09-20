@@ -15,6 +15,7 @@
     #import <Foundation/Foundation.h>
 #endif
 
+#define BRL_PA_STATION_INDEX 14
 #define BRL_SF_LAT 37.443245
 #define BRL_SF_LONG -122.157927
 #define BRL_SF_ZOOM 19
