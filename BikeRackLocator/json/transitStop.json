@@ -1,0 +1,397 @@
+[
+ {
+     "id": "1",
+     "name": "San Francisco",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+
+ {
+     "id": "2",
+     "name": "22nd Street",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+
+ {
+     "id": "3",
+     "name": "Bayshore",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+
+ {
+     "id": "4",
+     "name": "South San Francisco",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+ 
+ {
+     "id": "5",
+     "name": "San Bruno",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+ 
+ {
+     "id": "6",
+     "name": "Millbrae Transit Center",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+ 
+ {
+     "id": "7",
+     "name": "Burlingame",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+ 
+ {
+     "id": "8",
+     "name": "San Mateo",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+ 
+ {
+     "id": "9",
+     "name": "Hayward Park",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+ 
+ {
+     "id": "10",
+     "name": "Hillsdale",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+ 
+ {
+     "id": "11",
+     "name": "Belmont",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+ 
+ {
+     "id": "12",
+     "name": "San Carlos",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+ 
+ {
+    "id": "13",
+    "name": "Redwood City",
+    "type": "CALTRAIN",
+    "address": "95 University Ave., Palo Alto 94301",
+    "location":
+        {
+        "lat": "37.443544",
+        "lon": "-122.164046"
+        }
+ },
+
+ {
+     "id": "14",
+     "name": "Menlo Park",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+
+ {
+     "id": "15",
+     "name": "Palo Alto",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+
+ {
+     "id": "16",
+     "name": "California Ave.",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+
+ {
+     "id": "17",
+     "name": "San Antonio",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+
+ {
+     "id": "18",
+     "name": "Mountain View",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+
+ {
+     "id": "19",
+     "name": "Sunnyvale",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+
+ {
+     "id": "20",
+     "name": "Lawrence",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+
+ {
+     "id": "21",
+     "name": "Santa Clara",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+
+ {
+     "id": "22",
+     "name": "College Park",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+
+ {
+     "id": "23",
+     "name": "San Jose Diridon",
+     "type": "CALTRAIN",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+ 
+ {
+     "id": "100",
+     "name": "Embarcadero",
+     "type": "BART",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+ 
+ {
+     "id": "101",
+     "name": "Montgomery St.",
+     "type": "BART",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+ 
+ {
+     "id": "102",
+     "name": "Powell St.",
+     "type": "BART",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+ 
+ {
+     "id": "103",
+     "name": "Civic Center/UN Plaza",
+     "type": "BART",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+ 
+ {
+    "id": "104",
+    "name": "Daly City",
+    "type": "BART",
+    "address": "95 University Ave., Palo Alto 94301",
+    "location":
+        {
+        "lat": "37.443544",
+        "lon": "-122.164046"
+        }
+ },
+ 
+ {
+     "id": "105",
+     "name": "Colma",
+     "type": "BART",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+ 
+ {
+     "id": "106",
+     "name": "South San Francisco",
+     "type": "BART",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+ 
+ {
+     "id": "107",
+     "name": "San Bruno",
+     "type": "BART",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+ 
+ {
+     "id": "108",
+     "name": "Millbrae",
+     "type": "BART",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ },
+ 
+ {
+     "id": "109",
+     "name": "San Francisco Int'l Airport",
+     "type": "BART",
+     "address": "95 University Ave., Palo Alto 94301",
+     "location":
+         {
+         "lat": "37.443544",
+         "lon": "-122.164046"
+         }
+ }
+]

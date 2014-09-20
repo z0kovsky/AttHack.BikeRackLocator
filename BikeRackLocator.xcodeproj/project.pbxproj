@@ -21,7 +21,6 @@
 		BFB49F8319CDF2E7006EE708 /* BikeRackLocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB49F8219CDF2E7006EE708 /* BikeRackLocatorTests.m */; };
 		BFB49F8F19CDF59D006EE708 /* BRLMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB49F8D19CDF59D006EE708 /* BRLMapViewController.m */; };
 		BFB49F9019CDF59D006EE708 /* BRLMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB49F8E19CDF59D006EE708 /* BRLMapViewController.xib */; };
-		BFB49F9319CDF7F1006EE708 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB49F9219CDF7F1006EE708 /* GoogleMaps.framework */; };
 		BFB49F9519CDF83A006EE708 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB49F9419CDF83A006EE708 /* AVFoundation.framework */; };
 		BFB49F9719CDF841006EE708 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB49F9619CDF841006EE708 /* CoreData.framework */; };
 		BFB49F9919CDF8AF006EE708 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB49F9819CDF8AF006EE708 /* CoreLocation.framework */; };
@@ -34,6 +33,13 @@
 		BFB49FA719CDF909006EE708 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB49FA619CDF909006EE708 /* OpenGLES.framework */; };
 		BFB49FA919CDF91C006EE708 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB49FA819CDF91C006EE708 /* QuartzCore.framework */; };
 		BFB49FAB19CDF927006EE708 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB49FAA19CDF927006EE708 /* SystemConfiguration.framework */; };
+		BFB49FAD19CE0142006EE708 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB49FAC19CE0142006EE708 /* GoogleMaps.framework */; };
+		BFB49FAF19CE016A006EE708 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FAE19CE016A006EE708 /* GoogleMaps.bundle */; };
+		BFB49FB119CE033E006EE708 /* ATTHack.PaloAlto.Location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FB019CE033E006EE708 /* ATTHack.PaloAlto.Location.gpx */; };
+		BFB49FB619CE06F5006EE708 /* transitStop.json in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FB519CE06F5006EE708 /* transitStop.json */; };
+		BFB49FBA19CE0F6E006EE708 /* BRLTransitStop.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB49FB919CE0F6E006EE708 /* BRLTransitStop.m */; };
+		BFB49FBD19CE12CC006EE708 /* BRLTransitStopStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB49FBC19CE12CC006EE708 /* BRLTransitStopStorage.m */; };
+		BFB49FBF19CE153B006EE708 /* pinsList.json in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FBE19CE153B006EE708 /* pinsList.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +72,6 @@
 		BFB49F8C19CDF59D006EE708 /* BRLMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRLMapViewController.h; path = Map/BRLMapViewController.h; sourceTree = "<group>"; };
 		BFB49F8D19CDF59D006EE708 /* BRLMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRLMapViewController.m; path = Map/BRLMapViewController.m; sourceTree = "<group>"; };
 		BFB49F8E19CDF59D006EE708 /* BRLMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BRLMapViewController.xib; path = Map/BRLMapViewController.xib; sourceTree = "<group>"; };
-		BFB49F9219CDF7F1006EE708 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		BFB49F9419CDF83A006EE708 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		BFB49F9619CDF841006EE708 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		BFB49F9819CDF8AF006EE708 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -79,6 +84,15 @@
 		BFB49FA619CDF909006EE708 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BFB49FA819CDF91C006EE708 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BFB49FAA19CDF927006EE708 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BFB49FAC19CE0142006EE708 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		BFB49FAE19CE016A006EE708 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		BFB49FB019CE033E006EE708 /* ATTHack.PaloAlto.Location.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = ATTHack.PaloAlto.Location.gpx; path = ../gpx/ATTHack.PaloAlto.Location.gpx; sourceTree = "<group>"; };
+		BFB49FB519CE06F5006EE708 /* transitStop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = transitStop.json; path = json/transitStop.json; sourceTree = "<group>"; };
+		BFB49FB819CE0F6E006EE708 /* BRLTransitStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRLTransitStop.h; path = Data/BRLTransitStop.h; sourceTree = "<group>"; };
+		BFB49FB919CE0F6E006EE708 /* BRLTransitStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRLTransitStop.m; path = Data/BRLTransitStop.m; sourceTree = "<group>"; };
+		BFB49FBB19CE12CC006EE708 /* BRLTransitStopStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRLTransitStopStorage.h; path = Data/BRLTransitStopStorage.h; sourceTree = "<group>"; };
+		BFB49FBC19CE12CC006EE708 /* BRLTransitStopStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRLTransitStopStorage.m; path = Data/BRLTransitStopStorage.m; sourceTree = "<group>"; };
+		BFB49FBE19CE153B006EE708 /* pinsList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pinsList.json; path = json/pinsList.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +114,7 @@
 				BFB49F9519CDF83A006EE708 /* AVFoundation.framework in Frameworks */,
 				BFB49F6019CDF2E7006EE708 /* CoreGraphics.framework in Frameworks */,
 				BFB49F6219CDF2E7006EE708 /* UIKit.framework in Frameworks */,
-				BFB49F9319CDF7F1006EE708 /* GoogleMaps.framework in Frameworks */,
+				BFB49FAD19CE0142006EE708 /* GoogleMaps.framework in Frameworks */,
 				BFB49F5E19CDF2E7006EE708 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				BFB49F6319CDF2E7006EE708 /* BikeRackLocator */,
+				BFB49F6419CDF2E7006EE708 /* Supporting Files */,
 				BFB49F7C19CDF2E7006EE708 /* BikeRackLocatorTests */,
 				BFB49F5C19CDF2E7006EE708 /* Frameworks */,
 				BFB49F5B19CDF2E7006EE708 /* Products */,
@@ -140,6 +155,8 @@
 		BFB49F5C19CDF2E7006EE708 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BFB49FAE19CE016A006EE708 /* GoogleMaps.bundle */,
+				BFB49FAC19CE0142006EE708 /* GoogleMaps.framework */,
 				BFB49FAA19CDF927006EE708 /* SystemConfiguration.framework */,
 				BFB49FA819CDF91C006EE708 /* QuartzCore.framework */,
 				BFB49FA619CDF909006EE708 /* OpenGLES.framework */,
@@ -152,7 +169,6 @@
 				BFB49F9819CDF8AF006EE708 /* CoreLocation.framework */,
 				BFB49F9619CDF841006EE708 /* CoreData.framework */,
 				BFB49F9419CDF83A006EE708 /* AVFoundation.framework */,
-				BFB49F9219CDF7F1006EE708 /* GoogleMaps.framework */,
 				BFB49F5D19CDF2E7006EE708 /* Foundation.framework */,
 				BFB49F5F19CDF2E7006EE708 /* CoreGraphics.framework */,
 				BFB49F6119CDF2E7006EE708 /* UIKit.framework */,
@@ -164,11 +180,11 @@
 		BFB49F6319CDF2E7006EE708 /* BikeRackLocator */ = {
 			isa = PBXGroup;
 			children = (
+				BFB49FB719CE0F48006EE708 /* Data */,
 				BFB49F9119CDF5A5006EE708 /* Map */,
 				BFB49F6C19CDF2E7006EE708 /* BRLAppDelegate.h */,
 				BFB49F6D19CDF2E7006EE708 /* BRLAppDelegate.m */,
 				BFB49F6F19CDF2E7006EE708 /* Images.xcassets */,
-				BFB49F6419CDF2E7006EE708 /* Supporting Files */,
 			);
 			path = BikeRackLocator;
 			sourceTree = "<group>";
@@ -176,12 +192,15 @@
 		BFB49F6419CDF2E7006EE708 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BFB49FB419CE05B9006EE708 /* json */,
+				BFB49FB219CE0348006EE708 /* gpx */,
 				BFB49F6519CDF2E7006EE708 /* BikeRackLocator-Info.plist */,
 				BFB49F6619CDF2E7006EE708 /* InfoPlist.strings */,
 				BFB49F6919CDF2E7006EE708 /* main.m */,
 				BFB49F6B19CDF2E7006EE708 /* BikeRackLocator-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = BikeRackLocator;
 			sourceTree = "<group>";
 		};
 		BFB49F7C19CDF2E7006EE708 /* BikeRackLocatorTests */ = {
@@ -210,6 +229,34 @@
 				BFB49F8E19CDF59D006EE708 /* BRLMapViewController.xib */,
 			);
 			name = Map;
+			sourceTree = "<group>";
+		};
+		BFB49FB219CE0348006EE708 /* gpx */ = {
+			isa = PBXGroup;
+			children = (
+				BFB49FB019CE033E006EE708 /* ATTHack.PaloAlto.Location.gpx */,
+			);
+			name = gpx;
+			sourceTree = "<group>";
+		};
+		BFB49FB419CE05B9006EE708 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				BFB49FB519CE06F5006EE708 /* transitStop.json */,
+				BFB49FBE19CE153B006EE708 /* pinsList.json */,
+			);
+			name = json;
+			sourceTree = "<group>";
+		};
+		BFB49FB719CE0F48006EE708 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BFB49FB819CE0F6E006EE708 /* BRLTransitStop.h */,
+				BFB49FB919CE0F6E006EE708 /* BRLTransitStop.m */,
+				BFB49FBB19CE12CC006EE708 /* BRLTransitStopStorage.h */,
+				BFB49FBC19CE12CC006EE708 /* BRLTransitStopStorage.m */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,8 +336,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFB49F6819CDF2E7006EE708 /* InfoPlist.strings in Resources */,
+				BFB49FB119CE033E006EE708 /* ATTHack.PaloAlto.Location.gpx in Resources */,
 				BFB49F9019CDF59D006EE708 /* BRLMapViewController.xib in Resources */,
 				BFB49F7019CDF2E7006EE708 /* Images.xcassets in Resources */,
+				BFB49FBF19CE153B006EE708 /* pinsList.json in Resources */,
+				BFB49FAF19CE016A006EE708 /* GoogleMaps.bundle in Resources */,
+				BFB49FB619CE06F5006EE708 /* transitStop.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +362,8 @@
 			files = (
 				BFB49F6A19CDF2E7006EE708 /* main.m in Sources */,
 				BFB49F6E19CDF2E7006EE708 /* BRLAppDelegate.m in Sources */,
+				BFB49FBD19CE12CC006EE708 /* BRLTransitStopStorage.m in Sources */,
+				BFB49FBA19CE0F6E006EE708 /* BRLTransitStop.m in Sources */,
 				BFB49F8F19CDF59D006EE708 /* BRLMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

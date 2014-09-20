@@ -14,3 +14,10 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#define BRL_SF_LAT 37.443245
+#define BRL_SF_LONG -122.157927
+#define BRL_SF_ZOOM 19
+#define CURRENT_ZOOM 15
+#define MARKER_ZOOM 19
+#define MARKER_LOCATION_DELTA 0.00001

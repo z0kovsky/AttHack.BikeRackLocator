@@ -8,6 +8,7 @@
 
 #import "BRLAppDelegate.h"
 #import <GoogleMaps/GoogleMaps.h>
+#import "BRLMapViewController.h"
 
 @implementation BRLAppDelegate
 
@@ -17,7 +18,9 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
-    self.window.backgroundColor = [UIColor whiteColor];
+    BRLMapViewController *mapController = [[BRLMapViewController alloc] init];
+    
+    [self.window setRootViewController:mapController];
     [self.window makeKeyAndVisible];
 
     return YES;

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GoogleMaps/GoogleMaps.h>
 
-@interface BRLMapViewController : UIViewController
+@interface BRLMapViewController : UIViewController <CLLocationManagerDelegate, GMSMapViewDelegate>
+
+- (void)setTransitStops:(NSMutableArray*)transitStops;
 
 @end
