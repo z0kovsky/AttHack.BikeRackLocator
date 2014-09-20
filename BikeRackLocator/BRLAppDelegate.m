@@ -7,15 +7,19 @@
 //
 
 #import "BRLAppDelegate.h"
+#import <GoogleMaps/GoogleMaps.h>
 
 @implementation BRLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [GMSServices provideAPIKey:@"AIzaSyBVMxsKinjwNBBj4ZHuleXngjSxNbR90Qg"];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
     return YES;
 }
 
