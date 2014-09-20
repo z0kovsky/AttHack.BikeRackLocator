@@ -19,6 +19,8 @@
 - (id)init
 {
     if (self = [super init]) {
+        allItems = [[NSMutableArray alloc] init];
+
         NSString *defaultSettingsPath = [[NSBundle mainBundle] pathForResource:@"transitStop" ofType:@"json"];
         NSData *data = [NSData dataWithContentsOfFile:defaultSettingsPath];
         
