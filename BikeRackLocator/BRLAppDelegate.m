@@ -10,7 +10,7 @@
 #import <GoogleMaps/GoogleMaps.h>
 #import "BRLMapViewController.h"
 #import "BRLTransitStopStorage.h"
-
+#import "BRLStationTypeViewController.h"
 
 @implementation BRLAppDelegate
 
@@ -22,16 +22,17 @@
 
 //-------
 //using map controller
-    NSMutableArray *transitStopsList = [NSMutableArray array];
-    [transitStopsList addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:BRL_PA_STATION_INDEX]];
-    [transitStopsList addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:BRL_PA_STATION_INDEX - 1]];
-    [transitStopsList addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:BRL_PA_STATION_INDEX + 1]];
-
-    BRLMapViewController *mapController = [[BRLMapViewController alloc] init];
-    [mapController setTransitStops:transitStopsList];
+//    NSMutableArray *transitStopsList = [NSMutableArray array];
+//    [transitStopsList addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:BRL_PA_STATION_INDEX]];
+//    [transitStopsList addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:BRL_PA_STATION_INDEX - 1]];
+//    [transitStopsList addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:BRL_PA_STATION_INDEX + 1]];
+//
+//    BRLMapViewController *mapController = [[BRLMapViewController alloc] init];
+//    [mapController setTransitStops:transitStopsList];
 //-------
     
-    [self.window setRootViewController:mapController];
+    BRLStationTypeViewController *typeController = [[BRLStationTypeViewController alloc] init];
+    [self.window setRootViewController:typeController];
     [self.window makeKeyAndVisible];
 
     return YES;

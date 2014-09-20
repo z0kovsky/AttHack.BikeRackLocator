@@ -30,8 +30,14 @@
         [locationManager setDelegate:self];
         [locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
         
-        transitStopMarkerList = [NSMutableArray array];
-        bikePinMarkerList = [NSMutableArray array];
+        if (!transitStopMarkerList) {
+            transitStopMarkerList = [[NSMutableArray alloc] init];
+        }
+        
+        if (!bikePinMarkerList) {
+            bikePinMarkerList = [NSMutableArray array];
+        }
+        
     }
     return self;
 }
@@ -65,7 +71,11 @@
 
 - (void)setTransitStops:(NSMutableArray*)transitStops
 {
-
+    if (!transitStopMarkerList) {
+        transitStopMarkerList = [[NSMutableArray alloc] init];
+    }
+    
+    
 }
 
 

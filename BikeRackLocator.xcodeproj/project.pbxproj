@@ -40,6 +40,8 @@
 		BFB49FBA19CE0F6E006EE708 /* BRLTransitStop.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB49FB919CE0F6E006EE708 /* BRLTransitStop.m */; };
 		BFB49FBD19CE12CC006EE708 /* BRLTransitStopStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB49FBC19CE12CC006EE708 /* BRLTransitStopStorage.m */; };
 		BFB49FBF19CE153B006EE708 /* pinsList.json in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FBE19CE153B006EE708 /* pinsList.json */; };
+		BFB49FC519CE294A006EE708 /* BRLStationTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB49FC319CE294A006EE708 /* BRLStationTypeViewController.m */; };
+		BFB49FC619CE294A006EE708 /* BRLStationTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FC419CE294A006EE708 /* BRLStationTypeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +96,9 @@
 		BFB49FBC19CE12CC006EE708 /* BRLTransitStopStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRLTransitStopStorage.m; path = Data/BRLTransitStopStorage.m; sourceTree = "<group>"; };
 		BFB49FBE19CE153B006EE708 /* pinsList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pinsList.json; path = json/pinsList.json; sourceTree = "<group>"; };
 		BFB49FC019CE202C006EE708 /* BRLTransitType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRLTransitType.h; path = Data/BRLTransitType.h; sourceTree = "<group>"; };
+		BFB49FC219CE294A006EE708 /* BRLStationTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRLStationTypeViewController.h; path = StationList/BRLStationTypeViewController.h; sourceTree = "<group>"; };
+		BFB49FC319CE294A006EE708 /* BRLStationTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRLStationTypeViewController.m; path = StationList/BRLStationTypeViewController.m; sourceTree = "<group>"; };
+		BFB49FC419CE294A006EE708 /* BRLStationTypeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BRLStationTypeViewController.xib; path = StationList/BRLStationTypeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +186,7 @@
 		BFB49F6319CDF2E7006EE708 /* BikeRackLocator */ = {
 			isa = PBXGroup;
 			children = (
+				BFB49FC119CE290C006EE708 /* StationList */,
 				BFB49FB719CE0F48006EE708 /* Data */,
 				BFB49F9119CDF5A5006EE708 /* Map */,
 				BFB49F6C19CDF2E7006EE708 /* BRLAppDelegate.h */,
@@ -261,6 +267,16 @@
 			name = Data;
 			sourceTree = "<group>";
 		};
+		BFB49FC119CE290C006EE708 /* StationList */ = {
+			isa = PBXGroup;
+			children = (
+				BFB49FC219CE294A006EE708 /* BRLStationTypeViewController.h */,
+				BFB49FC319CE294A006EE708 /* BRLStationTypeViewController.m */,
+				BFB49FC419CE294A006EE708 /* BRLStationTypeViewController.xib */,
+			);
+			name = StationList;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -337,6 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB49FC619CE294A006EE708 /* BRLStationTypeViewController.xib in Resources */,
 				BFB49F6819CDF2E7006EE708 /* InfoPlist.strings in Resources */,
 				BFB49FB119CE033E006EE708 /* ATTHack.PaloAlto.Location.gpx in Resources */,
 				BFB49F9019CDF59D006EE708 /* BRLMapViewController.xib in Resources */,
@@ -364,6 +381,7 @@
 			files = (
 				BFB49F6A19CDF2E7006EE708 /* main.m in Sources */,
 				BFB49F6E19CDF2E7006EE708 /* BRLAppDelegate.m in Sources */,
+				BFB49FC519CE294A006EE708 /* BRLStationTypeViewController.m in Sources */,
 				BFB49FBD19CE12CC006EE708 /* BRLTransitStopStorage.m in Sources */,
 				BFB49FBA19CE0F6E006EE708 /* BRLTransitStop.m in Sources */,
 				BFB49F8F19CDF59D006EE708 /* BRLMapViewController.m in Sources */,
