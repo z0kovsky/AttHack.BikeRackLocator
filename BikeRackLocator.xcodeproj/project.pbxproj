@@ -93,6 +93,7 @@
 		BFB49FBB19CE12CC006EE708 /* BRLTransitStopStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRLTransitStopStorage.h; path = Data/BRLTransitStopStorage.h; sourceTree = "<group>"; };
 		BFB49FBC19CE12CC006EE708 /* BRLTransitStopStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRLTransitStopStorage.m; path = Data/BRLTransitStopStorage.m; sourceTree = "<group>"; };
 		BFB49FBE19CE153B006EE708 /* pinsList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pinsList.json; path = json/pinsList.json; sourceTree = "<group>"; };
+		BFB49FC019CE202C006EE708 /* BRLTransitType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRLTransitType.h; path = Data/BRLTransitType.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +256,7 @@
 				BFB49FB919CE0F6E006EE708 /* BRLTransitStop.m */,
 				BFB49FBB19CE12CC006EE708 /* BRLTransitStopStorage.h */,
 				BFB49FBC19CE12CC006EE708 /* BRLTransitStopStorage.m */,
+				BFB49FC019CE202C006EE708 /* BRLTransitType.h */,
 			);
 			name = Data;
 			sourceTree = "<group>";

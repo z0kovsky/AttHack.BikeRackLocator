@@ -33,16 +33,18 @@
             NSString *address = [item objectForKey:@"address"];
             
             NSMutableDictionary *location = [item objectForKey:@"location"];
-            double longitude = [[location objectForKey:@"lon"] doubleValue];
-            double latitude = [[location objectForKey:@"lat"] doubleValue];
-            
+            NSNumber *lon = [NSNumber numberWithDouble:[[location objectForKey:@"lon"] doubleValue]];
+            NSNumber *lat = [NSNumber numberWithDouble:[[location objectForKey:@"lat"] doubleValue]];
+            CLLocation *listingLocation = [[CLLocation alloc] initWithLatitude:[lat doubleValue] longitude:[lon doubleValue]];
+
             
             BRLTransitStop *transitStop = [[BRLTransitStop alloc] init];
             [transitStop setStopID:idItem];
             [transitStop setStopName:name];
             [transitStop setStopType:type];
+            [transitStop setStopTransitType:[type isEqualToString:@"CALTRAIN" ] ? BRLTransitType_CALTRAIN : BRLTransitType_BART];
             [transitStop setStopAddress:address];
-//            [transitStop setStopLocationCoordinate:CLLocationCoordinate2DMake(lat, lon)];
+            [transitStop setLocationCoordinate:listingLocation];
             [allItems addObject:transitStop];
             
         }

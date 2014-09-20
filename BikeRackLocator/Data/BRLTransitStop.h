@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
+#import "BRLTransitType.h"
 
 @interface BRLTransitStop : NSObject
 
@@ -15,7 +16,8 @@
 @property (nonatomic, strong) NSString *stopName;
 @property (nonatomic, strong) NSString *stopType;
 @property (nonatomic, strong) NSString *stopAddress;
-@property (nonatomic) CLLocationCoordinate2D stopLocationCoordinate;
+@property (nonatomic) BRLTransitType stopTransitType;
+@property (nonatomic, strong) CLLocation *locationCoordinate;
 
 - (id)init;
 
