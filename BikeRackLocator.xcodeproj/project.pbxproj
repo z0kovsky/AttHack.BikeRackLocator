@@ -19,6 +19,8 @@
 		BFB49F7919CDF2E7006EE708 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB49F6119CDF2E7006EE708 /* UIKit.framework */; };
 		BFB49F8119CDF2E7006EE708 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFB49F7F19CDF2E7006EE708 /* InfoPlist.strings */; };
 		BFB49F8319CDF2E7006EE708 /* BikeRackLocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB49F8219CDF2E7006EE708 /* BikeRackLocatorTests.m */; };
+		BFB49F8F19CDF59D006EE708 /* BRLMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB49F8D19CDF59D006EE708 /* BRLMapViewController.m */; };
+		BFB49F9019CDF59D006EE708 /* BRLMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB49F8E19CDF59D006EE708 /* BRLMapViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		BFB49F7E19CDF2E7006EE708 /* BikeRackLocatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BikeRackLocatorTests-Info.plist"; sourceTree = "<group>"; };
 		BFB49F8019CDF2E7006EE708 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFB49F8219CDF2E7006EE708 /* BikeRackLocatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BikeRackLocatorTests.m; sourceTree = "<group>"; };
+		BFB49F8C19CDF59D006EE708 /* BRLMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRLMapViewController.h; path = Map/BRLMapViewController.h; sourceTree = "<group>"; };
+		BFB49F8D19CDF59D006EE708 /* BRLMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRLMapViewController.m; path = Map/BRLMapViewController.m; sourceTree = "<group>"; };
+		BFB49F8E19CDF59D006EE708 /* BRLMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BRLMapViewController.xib; path = Map/BRLMapViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,7 @@
 		BFB49F6319CDF2E7006EE708 /* BikeRackLocator */ = {
 			isa = PBXGroup;
 			children = (
+				BFB49F9119CDF5A5006EE708 /* Map */,
 				BFB49F6C19CDF2E7006EE708 /* BRLAppDelegate.h */,
 				BFB49F6D19CDF2E7006EE708 /* BRLAppDelegate.m */,
 				BFB49F6F19CDF2E7006EE708 /* Images.xcassets */,
@@ -142,6 +148,16 @@
 				BFB49F7F19CDF2E7006EE708 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFB49F9119CDF5A5006EE708 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				BFB49F8C19CDF59D006EE708 /* BRLMapViewController.h */,
+				BFB49F8D19CDF59D006EE708 /* BRLMapViewController.m */,
+				BFB49F8E19CDF59D006EE708 /* BRLMapViewController.xib */,
+			);
+			name = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFB49F6819CDF2E7006EE708 /* InfoPlist.strings in Resources */,
+				BFB49F9019CDF59D006EE708 /* BRLMapViewController.xib in Resources */,
 				BFB49F7019CDF2E7006EE708 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +259,7 @@
 			files = (
 				BFB49F6A19CDF2E7006EE708 /* main.m in Sources */,
 				BFB49F6E19CDF2E7006EE708 /* BRLAppDelegate.m in Sources */,
+				BFB49F8F19CDF59D006EE708 /* BRLMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
