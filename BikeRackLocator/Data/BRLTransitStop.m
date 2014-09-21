@@ -8,9 +8,7 @@
 
 #import "BRLTransitStop.h"
 
-@implementation BRLTransitStop {
-    CLLocation *_locationCoordinate;
-}
+@implementation BRLTransitStop 
 
 - (id)init
 {

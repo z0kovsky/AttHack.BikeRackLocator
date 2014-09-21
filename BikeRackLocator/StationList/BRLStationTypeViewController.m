@@ -8,6 +8,9 @@
 
 #import "BRLStationTypeViewController.h"
 #import "BRLMapViewController.h"
+#import "BRLTransitStopStorage.h"
+
+
 @interface BRLStationTypeViewController ()
 
 @end
@@ -36,7 +39,17 @@
 }
 
 - (IBAction)caltrainAction:(id)sender {
+    NSMutableArray *transitStopsList = [NSMutableArray array];
+    [transitStopsList addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:BRL_PA_STATION_INDEX]];
+    [transitStopsList addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:0]];
+    [transitStopsList addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:1]];
+    [transitStopsList addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:2]];
+    [transitStopsList addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:3]];
+
+//    [[[BRLTransitStopStorage sharedStorage] locationTitlesList] objectAtIndex:index];
+    
     BRLMapViewController *mapController = [[BRLMapViewController alloc] init];
+    [mapController setTransitStops:transitStopsList];
     
     [self presentViewController:mapController animated:NO completion:nil];
 

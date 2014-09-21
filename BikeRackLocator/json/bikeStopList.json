@@ -1,0 +1,116 @@
+[
+{
+    "id": "1",
+    "name": "nearby Palo Alto",
+    "address": "95 University Ave., Palo Alto 94301",
+    "location": {
+         "lat": "37.443544",
+         "lon": "-122.164050"
+         },
+    "features":
+        {
+         "safety": "YES",
+         "covered": "NO",
+         "free": "NO",
+         "numSpots": "5"
+         }
+ },
+ 
+ {
+     "id": "2",
+     "name": "22nd Street",
+     "address": "1149 22nd street",
+     "location": {
+         "lat": "37.757528",
+         "lon": "-122.392687"
+         },
+     "features":
+         {
+         "safety": "NO",
+         "covered": "NO",
+         "free": "YES",
+         "numSpots": "27"
+         }
+ },
+ 
+ {
+     "id": "3",
+     "name": "Bayshore",
+     "address": "400 Tunnel Ave",
+     "location": {
+     "lat": "37.709715",
+     "lon": "-122.401370"},
+     "features":
+         {
+         "safety": "NO",
+         "covered": "NO",
+         "free": "YES",
+         "numSpots": "1"
+         }
+ },
+ 
+ {
+     "id": "4",
+     "name": "So San Francisco",
+     "address": "590 Dubuque St So San Francisco",
+     "location": {
+     "lat": "37.657566",
+     "lon": "-122.405552"},
+     "features":
+         {
+         "safety": "NO",
+         "covered": "NO",
+         "free": "YES",
+         "numSpots": "2"
+         }
+ },
+ 
+ {
+     "id": "5",
+     "name": "PA city hall",
+     "address": "228 Hamilton Ave PA",
+     "location": {
+     "lat": "37.444963",
+     "lon": "-122.160461"},
+     "features":
+         {
+         "safety": "NO",
+         "covered": "NO",
+         "free": "YES",
+         "numSpots": "21"
+         }
+ },
+ 
+ {
+     "id": "6",
+     "name": "ATT Foundry",
+     "address": "260 Homer Ave PA",
+     "location": {
+     "lat": "37.443106",
+     "lon": "-122.157841"},
+     "features":
+         {
+         "safety": "NO",
+         "covered": "NO",
+         "free": "YES",
+         "numSpots": "5"
+         }
+ },
+ 
+ {
+     "id": "7",
+     "name": "Pizza Delfina",
+     "address": "651 Emerson Ave PA",
+     "location": {
+     "lat": "37.443410",
+     "lon": "-122.160410"},
+     "features":
+         {
+         "safety": "NO",
+         "covered": "NO",
+         "free": "YES",
+         "numSpots": "2"
+         }
+ }
+
+ ]

@@ -39,9 +39,35 @@
 		BFB49FB619CE06F5006EE708 /* transitStop.json in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FB519CE06F5006EE708 /* transitStop.json */; };
 		BFB49FBA19CE0F6E006EE708 /* BRLTransitStop.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB49FB919CE0F6E006EE708 /* BRLTransitStop.m */; };
 		BFB49FBD19CE12CC006EE708 /* BRLTransitStopStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB49FBC19CE12CC006EE708 /* BRLTransitStopStorage.m */; };
-		BFB49FBF19CE153B006EE708 /* pinsList.json in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FBE19CE153B006EE708 /* pinsList.json */; };
 		BFB49FC519CE294A006EE708 /* BRLStationTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB49FC319CE294A006EE708 /* BRLStationTypeViewController.m */; };
 		BFB49FC619CE294A006EE708 /* BRLStationTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FC419CE294A006EE708 /* BRLStationTypeViewController.xib */; };
+		BFB49FCA19CE3092006EE708 /* ic-BART.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FC819CE3092006EE708 /* ic-BART.png */; };
+		BFB49FCB19CE3092006EE708 /* ic-CALTRAIN.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FC919CE3092006EE708 /* ic-CALTRAIN.png */; };
+		BFB49FDD19CE3CAD006EE708 /* spot_1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FD019CE3CAD006EE708 /* spot_1.JPG */; };
+		BFB49FDE19CE3CAD006EE708 /* spot_2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FD119CE3CAD006EE708 /* spot_2.PNG */; };
+		BFB49FDF19CE3CAD006EE708 /* spot_3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FD219CE3CAD006EE708 /* spot_3.JPG */; };
+		BFB49FE019CE3CAD006EE708 /* spot_4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FD319CE3CAD006EE708 /* spot_4.JPG */; };
+		BFB49FE119CE3CAD006EE708 /* spot_5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FD419CE3CAD006EE708 /* spot_5.JPG */; };
+		BFB49FE219CE3CAD006EE708 /* spot_6.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FD519CE3CAD006EE708 /* spot_6.JPG */; };
+		BFB49FE319CE3CAD006EE708 /* spot_7.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FD619CE3CAD006EE708 /* spot_7.JPG */; };
+		BFB49FE419CE3CAD006EE708 /* spot_8.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FD719CE3CAD006EE708 /* spot_8.JPG */; };
+		BFB49FE519CE3CAD006EE708 /* spot_9.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FD819CE3CAD006EE708 /* spot_9.JPG */; };
+		BFB49FEE19CE3DA4006EE708 /* BRLMarkerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB49FEC19CE3DA4006EE708 /* BRLMarkerInfoViewController.m */; };
+		BFB49FEF19CE3DA4006EE708 /* BRLMarkerInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FED19CE3DA4006EE708 /* BRLMarkerInfoViewController.xib */; };
+		BFB49FF119CE402F006EE708 /* bikeStopList.json in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FF019CE402F006EE708 /* bikeStopList.json */; };
+		BFB49FF419CE4251006EE708 /* BRLBikeSpot.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB49FF319CE4251006EE708 /* BRLBikeSpot.m */; };
+		BFB49FF619CE471A006EE708 /* ic-noMoney.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FF519CE471A006EE708 /* ic-noMoney.png */; };
+		BFB49FF819CE47E0006EE708 /* ic-spot.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FF719CE47E0006EE708 /* ic-spot.png */; };
+		BFB49FFA19CE48D6006EE708 /* ic-nosafety.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FF919CE48D6006EE708 /* ic-nosafety.jpg */; };
+		BFB49FFC19CE49EA006EE708 /* ic-roof.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FFB19CE49EA006EE708 /* ic-roof.jpeg */; };
+		BFB49FFE19CE4A4B006EE708 /* ic-safe.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FFD19CE4A4B006EE708 /* ic-safe.png */; };
+		BFB4A00319CE4BD2006EE708 /* spot_10.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB49FFF19CE4BD2006EE708 /* spot_10.png */; };
+		BFB4A00419CE4BD2006EE708 /* spot_11.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB4A00019CE4BD2006EE708 /* spot_11.png */; };
+		BFB4A00519CE4BD2006EE708 /* spot_12.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB4A00119CE4BD2006EE708 /* spot_12.png */; };
+		BFB4A00619CE4BD2006EE708 /* spot_13.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB4A00219CE4BD2006EE708 /* spot_13.png */; };
+		BFB4A00919CE4CD9006EE708 /* BRLBikeSpotStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB4A00819CE4CD9006EE708 /* BRLBikeSpotStorage.m */; };
+		BFB4A00C19CE4EEA006EE708 /* ic-bike32.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB4A00A19CE4EEA006EE708 /* ic-bike32.png */; };
+		BFB4A00D19CE4EEA006EE708 /* ic-bike60.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB4A00B19CE4EEA006EE708 /* ic-bike60.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,11 +120,40 @@
 		BFB49FB919CE0F6E006EE708 /* BRLTransitStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRLTransitStop.m; path = Data/BRLTransitStop.m; sourceTree = "<group>"; };
 		BFB49FBB19CE12CC006EE708 /* BRLTransitStopStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRLTransitStopStorage.h; path = Data/BRLTransitStopStorage.h; sourceTree = "<group>"; };
 		BFB49FBC19CE12CC006EE708 /* BRLTransitStopStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRLTransitStopStorage.m; path = Data/BRLTransitStopStorage.m; sourceTree = "<group>"; };
-		BFB49FBE19CE153B006EE708 /* pinsList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pinsList.json; path = json/pinsList.json; sourceTree = "<group>"; };
 		BFB49FC019CE202C006EE708 /* BRLTransitType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRLTransitType.h; path = Data/BRLTransitType.h; sourceTree = "<group>"; };
 		BFB49FC219CE294A006EE708 /* BRLStationTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRLStationTypeViewController.h; path = StationList/BRLStationTypeViewController.h; sourceTree = "<group>"; };
 		BFB49FC319CE294A006EE708 /* BRLStationTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRLStationTypeViewController.m; path = StationList/BRLStationTypeViewController.m; sourceTree = "<group>"; };
 		BFB49FC419CE294A006EE708 /* BRLStationTypeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BRLStationTypeViewController.xib; path = StationList/BRLStationTypeViewController.xib; sourceTree = "<group>"; };
+		BFB49FC819CE3092006EE708 /* ic-BART.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic-BART.png"; path = "icon/ic-BART.png"; sourceTree = "<group>"; };
+		BFB49FC919CE3092006EE708 /* ic-CALTRAIN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic-CALTRAIN.png"; path = "icon/ic-CALTRAIN.png"; sourceTree = "<group>"; };
+		BFB49FD019CE3CAD006EE708 /* spot_1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spot_1.JPG; path = images/spot_1.JPG; sourceTree = "<group>"; };
+		BFB49FD119CE3CAD006EE708 /* spot_2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spot_2.PNG; path = images/spot_2.PNG; sourceTree = "<group>"; };
+		BFB49FD219CE3CAD006EE708 /* spot_3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spot_3.JPG; path = images/spot_3.JPG; sourceTree = "<group>"; };
+		BFB49FD319CE3CAD006EE708 /* spot_4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spot_4.JPG; path = images/spot_4.JPG; sourceTree = "<group>"; };
+		BFB49FD419CE3CAD006EE708 /* spot_5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spot_5.JPG; path = images/spot_5.JPG; sourceTree = "<group>"; };
+		BFB49FD519CE3CAD006EE708 /* spot_6.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spot_6.JPG; path = images/spot_6.JPG; sourceTree = "<group>"; };
+		BFB49FD619CE3CAD006EE708 /* spot_7.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spot_7.JPG; path = images/spot_7.JPG; sourceTree = "<group>"; };
+		BFB49FD719CE3CAD006EE708 /* spot_8.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spot_8.JPG; path = images/spot_8.JPG; sourceTree = "<group>"; };
+		BFB49FD819CE3CAD006EE708 /* spot_9.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spot_9.JPG; path = images/spot_9.JPG; sourceTree = "<group>"; };
+		BFB49FEB19CE3DA4006EE708 /* BRLMarkerInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRLMarkerInfoViewController.h; path = Map/BRLMarkerInfoViewController.h; sourceTree = "<group>"; };
+		BFB49FEC19CE3DA4006EE708 /* BRLMarkerInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRLMarkerInfoViewController.m; path = Map/BRLMarkerInfoViewController.m; sourceTree = "<group>"; };
+		BFB49FED19CE3DA4006EE708 /* BRLMarkerInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BRLMarkerInfoViewController.xib; path = Map/BRLMarkerInfoViewController.xib; sourceTree = "<group>"; };
+		BFB49FF019CE402F006EE708 /* bikeStopList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bikeStopList.json; path = json/bikeStopList.json; sourceTree = "<group>"; };
+		BFB49FF219CE4251006EE708 /* BRLBikeSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRLBikeSpot.h; path = Data/BRLBikeSpot.h; sourceTree = "<group>"; };
+		BFB49FF319CE4251006EE708 /* BRLBikeSpot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRLBikeSpot.m; path = Data/BRLBikeSpot.m; sourceTree = "<group>"; };
+		BFB49FF519CE471A006EE708 /* ic-noMoney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic-noMoney.png"; sourceTree = "<group>"; };
+		BFB49FF719CE47E0006EE708 /* ic-spot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic-spot.png"; sourceTree = "<group>"; };
+		BFB49FF919CE48D6006EE708 /* ic-nosafety.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ic-nosafety.jpg"; sourceTree = "<group>"; };
+		BFB49FFB19CE49EA006EE708 /* ic-roof.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ic-roof.jpeg"; sourceTree = "<group>"; };
+		BFB49FFD19CE4A4B006EE708 /* ic-safe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic-safe.png"; sourceTree = "<group>"; };
+		BFB49FFF19CE4BD2006EE708 /* spot_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spot_10.png; path = images/spot_10.png; sourceTree = "<group>"; };
+		BFB4A00019CE4BD2006EE708 /* spot_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spot_11.png; path = images/spot_11.png; sourceTree = "<group>"; };
+		BFB4A00119CE4BD2006EE708 /* spot_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spot_12.png; path = images/spot_12.png; sourceTree = "<group>"; };
+		BFB4A00219CE4BD2006EE708 /* spot_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spot_13.png; path = images/spot_13.png; sourceTree = "<group>"; };
+		BFB4A00719CE4CD9006EE708 /* BRLBikeSpotStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRLBikeSpotStorage.h; path = Data/BRLBikeSpotStorage.h; sourceTree = "<group>"; };
+		BFB4A00819CE4CD9006EE708 /* BRLBikeSpotStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRLBikeSpotStorage.m; path = Data/BRLBikeSpotStorage.m; sourceTree = "<group>"; };
+		BFB4A00A19CE4EEA006EE708 /* ic-bike32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic-bike32.png"; sourceTree = "<group>"; };
+		BFB4A00B19CE4EEA006EE708 /* ic-bike60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic-bike60.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +254,8 @@
 		BFB49F6419CDF2E7006EE708 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BFB49FEA19CE3CB4006EE708 /* images */,
+				BFB49FC719CE2F11006EE708 /* icons */,
 				BFB49FB419CE05B9006EE708 /* json */,
 				BFB49FB219CE0348006EE708 /* gpx */,
 				BFB49F6519CDF2E7006EE708 /* BikeRackLocator-Info.plist */,
@@ -234,6 +291,9 @@
 				BFB49F8C19CDF59D006EE708 /* BRLMapViewController.h */,
 				BFB49F8D19CDF59D006EE708 /* BRLMapViewController.m */,
 				BFB49F8E19CDF59D006EE708 /* BRLMapViewController.xib */,
+				BFB49FEB19CE3DA4006EE708 /* BRLMarkerInfoViewController.h */,
+				BFB49FEC19CE3DA4006EE708 /* BRLMarkerInfoViewController.m */,
+				BFB49FED19CE3DA4006EE708 /* BRLMarkerInfoViewController.xib */,
 			);
 			name = Map;
 			sourceTree = "<group>";
@@ -249,8 +309,8 @@
 		BFB49FB419CE05B9006EE708 /* json */ = {
 			isa = PBXGroup;
 			children = (
+				BFB49FF019CE402F006EE708 /* bikeStopList.json */,
 				BFB49FB519CE06F5006EE708 /* transitStop.json */,
-				BFB49FBE19CE153B006EE708 /* pinsList.json */,
 			);
 			name = json;
 			sourceTree = "<group>";
@@ -263,6 +323,10 @@
 				BFB49FBB19CE12CC006EE708 /* BRLTransitStopStorage.h */,
 				BFB49FBC19CE12CC006EE708 /* BRLTransitStopStorage.m */,
 				BFB49FC019CE202C006EE708 /* BRLTransitType.h */,
+				BFB49FF219CE4251006EE708 /* BRLBikeSpot.h */,
+				BFB49FF319CE4251006EE708 /* BRLBikeSpot.m */,
+				BFB4A00719CE4CD9006EE708 /* BRLBikeSpotStorage.h */,
+				BFB4A00819CE4CD9006EE708 /* BRLBikeSpotStorage.m */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -275,6 +339,42 @@
 				BFB49FC419CE294A006EE708 /* BRLStationTypeViewController.xib */,
 			);
 			name = StationList;
+			sourceTree = "<group>";
+		};
+		BFB49FC719CE2F11006EE708 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				BFB4A00A19CE4EEA006EE708 /* ic-bike32.png */,
+				BFB4A00B19CE4EEA006EE708 /* ic-bike60.png */,
+				BFB49FFD19CE4A4B006EE708 /* ic-safe.png */,
+				BFB49FFB19CE49EA006EE708 /* ic-roof.jpeg */,
+				BFB49FF919CE48D6006EE708 /* ic-nosafety.jpg */,
+				BFB49FF719CE47E0006EE708 /* ic-spot.png */,
+				BFB49FF519CE471A006EE708 /* ic-noMoney.png */,
+				BFB49FC819CE3092006EE708 /* ic-BART.png */,
+				BFB49FC919CE3092006EE708 /* ic-CALTRAIN.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		BFB49FEA19CE3CB4006EE708 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BFB49FFF19CE4BD2006EE708 /* spot_10.png */,
+				BFB4A00019CE4BD2006EE708 /* spot_11.png */,
+				BFB4A00119CE4BD2006EE708 /* spot_12.png */,
+				BFB4A00219CE4BD2006EE708 /* spot_13.png */,
+				BFB49FD019CE3CAD006EE708 /* spot_1.JPG */,
+				BFB49FD119CE3CAD006EE708 /* spot_2.PNG */,
+				BFB49FD219CE3CAD006EE708 /* spot_3.JPG */,
+				BFB49FD319CE3CAD006EE708 /* spot_4.JPG */,
+				BFB49FD419CE3CAD006EE708 /* spot_5.JPG */,
+				BFB49FD519CE3CAD006EE708 /* spot_6.JPG */,
+				BFB49FD619CE3CAD006EE708 /* spot_7.JPG */,
+				BFB49FD719CE3CAD006EE708 /* spot_8.JPG */,
+				BFB49FD819CE3CAD006EE708 /* spot_9.JPG */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,14 +453,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB4A00D19CE4EEA006EE708 /* ic-bike60.png in Resources */,
+				BFB49FF619CE471A006EE708 /* ic-noMoney.png in Resources */,
 				BFB49FC619CE294A006EE708 /* BRLStationTypeViewController.xib in Resources */,
+				BFB49FF119CE402F006EE708 /* bikeStopList.json in Resources */,
 				BFB49F6819CDF2E7006EE708 /* InfoPlist.strings in Resources */,
+				BFB4A00519CE4BD2006EE708 /* spot_12.png in Resources */,
+				BFB49FFA19CE48D6006EE708 /* ic-nosafety.jpg in Resources */,
+				BFB4A00619CE4BD2006EE708 /* spot_13.png in Resources */,
+				BFB4A00C19CE4EEA006EE708 /* ic-bike32.png in Resources */,
+				BFB49FE419CE3CAD006EE708 /* spot_8.JPG in Resources */,
+				BFB4A00319CE4BD2006EE708 /* spot_10.png in Resources */,
+				BFB49FF819CE47E0006EE708 /* ic-spot.png in Resources */,
+				BFB49FE019CE3CAD006EE708 /* spot_4.JPG in Resources */,
 				BFB49FB119CE033E006EE708 /* ATTHack.PaloAlto.Location.gpx in Resources */,
+				BFB49FDE19CE3CAD006EE708 /* spot_2.PNG in Resources */,
+				BFB49FE319CE3CAD006EE708 /* spot_7.JPG in Resources */,
+				BFB49FFC19CE49EA006EE708 /* ic-roof.jpeg in Resources */,
+				BFB49FCB19CE3092006EE708 /* ic-CALTRAIN.png in Resources */,
+				BFB49FEF19CE3DA4006EE708 /* BRLMarkerInfoViewController.xib in Resources */,
+				BFB49FDF19CE3CAD006EE708 /* spot_3.JPG in Resources */,
+				BFB49FE119CE3CAD006EE708 /* spot_5.JPG in Resources */,
+				BFB49FCA19CE3092006EE708 /* ic-BART.png in Resources */,
 				BFB49F9019CDF59D006EE708 /* BRLMapViewController.xib in Resources */,
 				BFB49F7019CDF2E7006EE708 /* Images.xcassets in Resources */,
-				BFB49FBF19CE153B006EE708 /* pinsList.json in Resources */,
 				BFB49FAF19CE016A006EE708 /* GoogleMaps.bundle in Resources */,
 				BFB49FB619CE06F5006EE708 /* transitStop.json in Resources */,
+				BFB49FFE19CE4A4B006EE708 /* ic-safe.png in Resources */,
+				BFB49FDD19CE3CAD006EE708 /* spot_1.JPG in Resources */,
+				BFB49FE219CE3CAD006EE708 /* spot_6.JPG in Resources */,
+				BFB49FE519CE3CAD006EE708 /* spot_9.JPG in Resources */,
+				BFB4A00419CE4BD2006EE708 /* spot_11.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,10 +503,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFB49F6A19CDF2E7006EE708 /* main.m in Sources */,
+				BFB49FF419CE4251006EE708 /* BRLBikeSpot.m in Sources */,
 				BFB49F6E19CDF2E7006EE708 /* BRLAppDelegate.m in Sources */,
+				BFB4A00919CE4CD9006EE708 /* BRLBikeSpotStorage.m in Sources */,
 				BFB49FC519CE294A006EE708 /* BRLStationTypeViewController.m in Sources */,
 				BFB49FBD19CE12CC006EE708 /* BRLTransitStopStorage.m in Sources */,
 				BFB49FBA19CE0F6E006EE708 /* BRLTransitStop.m in Sources */,
+				BFB49FEE19CE3DA4006EE708 /* BRLMarkerInfoViewController.m in Sources */,
 				BFB49F8F19CDF59D006EE708 /* BRLMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -592,6 +718,7 @@
 				BFB49F8819CDF2E7006EE708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFB49F8919CDF2E7006EE708 /* Build configuration list for PBXNativeTarget "BikeRackLocatorTests" */ = {
 			isa = XCConfigurationList;
@@ -600,6 +727,7 @@
 				BFB49F8B19CDF2E7006EE708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
