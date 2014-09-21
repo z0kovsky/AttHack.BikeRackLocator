@@ -8,6 +8,7 @@
 
 #import "BRLStationTypeViewController.h"
 #import "BRLMapViewController.h"
+#import "StationNameTableViewController.h"
 #import "BRLTransitStopStorage.h"
 
 
@@ -38,27 +39,17 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)caltrainAction:(id)sender {
-    NSMutableArray *transitStopsList = [NSMutableArray array];
-    [transitStopsList addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:BRL_PA_STATION_INDEX]];
-    [transitStopsList addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:0]];
-    [transitStopsList addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:1]];
-    [transitStopsList addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:2]];
-    [transitStopsList addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:3]];
-
-//    [[[BRLTransitStopStorage sharedStorage] locationTitlesList] objectAtIndex:index];
+- (IBAction)caltrainAction:(id)sender
+{
+    StationNameTableViewController *caltrainStations = [[StationNameTableViewController alloc] init];
+    [self presentViewController: caltrainStations animated:NO completion:nil];
     
-    BRLMapViewController *mapController = [[BRLMapViewController alloc] init];
-    [mapController setTransitStops:transitStopsList];
+//    BRLMapViewController *mapController = [[BRLMapViewController alloc] init];
+//    [mapController setTransitStops:transitStopsList];
     
-    [self presentViewController:mapController animated:NO completion:nil];
-    
-    
-    
-    
-    
-
+//    [self presentViewController:caltrainStations animated:NO completion:nil];
 }
+
 - (IBAction)bartAction:(id)sender {
     
 }

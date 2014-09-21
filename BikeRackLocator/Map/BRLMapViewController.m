@@ -65,6 +65,7 @@
     _mapView.delegate = self;
     [mapViewOnSreen addSubview:_mapView];
     
+    
     [self showMarkers];
 
 }
@@ -150,7 +151,7 @@
 - (void)mapView:(GMSMapView *)mapView didTapInfoWindowOfMarker:(GMSMarker *)marker
 {
     int index = [bikePinMarkerList indexOfObject:marker];
-    if (index == -1) {
+    if (index < 0 && index >= bikePinMarkerList.count) {
         return;
     }
     
@@ -159,20 +160,4 @@
     [self presentViewController:markerInfoVC animated:NO completion:nil];
 }
 
-- (void)mapView:(GMSMapView *)mapView willMove:(BOOL)gesture {
-//    [mapView clear];
-}
-
-- (void)mapView:(GMSMapView *)mapView idleAtCameraPosition:(GMSCameraPosition *)cameraPosition {
-//    id handler = ^(GMSReverseGeocodeResponse *response, NSError *error) {
-//        if (error == nil) {
-//            GMSReverseGeocodeResult *result = response.firstResult;
-//            GMSMarker *marker = [GMSMarker markerWithPosition:cameraPosition.target];
-//            marker.title = result.addressLine1;
-//            marker.snippet = result.addressLine2;
-//            marker.map = mapView;
-//        }
-//    };
-//    [geocoder_ reverseGeocodeCoordinate:cameraPosition.target completionHandler:handler];
-}
 @end

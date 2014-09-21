@@ -7,8 +7,10 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BRLMarkerInfoViewController">
             <connections>
                 <outlet property="addressTextView" destination="k3Q-hB-rCb" id="aMU-eq-tXO"/>
+                <outlet property="distanceLabel" destination="xNQ-cg-zLR" id="xG6-Ap-1sS"/>
                 <outlet property="imageView" destination="KZQ-FC-Xbs" id="s3v-I5-O1T"/>
                 <outlet property="nameTextView" destination="Mjj-7v-bbT" id="yuI-0z-BxJ"/>
+                <outlet property="numSpotsLabel" destination="gdL-5i-3Rr" id="NCn-Ck-5zZ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -36,15 +38,15 @@
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic-roof.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="fMp-70-BbV">
-                    <rect key="frame" x="67" y="492" width="57" height="56"/>
+                    <rect key="frame" x="67" y="470" width="57" height="56"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic-safe.png" translatesAutoresizingMaskIntoConstraints="NO" id="wyb-IG-fUS">
-                    <rect key="frame" x="132" y="492" width="57" height="56"/>
+                    <rect key="frame" x="132" y="470" width="57" height="56"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic-noMoney.png" translatesAutoresizingMaskIntoConstraints="NO" id="qyK-8Q-r2X">
-                    <rect key="frame" x="197" y="492" width="57" height="56"/>
+                    <rect key="frame" x="197" y="470" width="57" height="56"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic-CALTRAIN.png" translatesAutoresizingMaskIntoConstraints="NO" id="vXL-TB-9pp">
@@ -69,6 +71,16 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2e-ya-hzr">
+                    <rect key="frame" x="137" y="538" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Back">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="backAction:" destination="-1" eventType="touchUpInside" id="zrO-Cj-aNy"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>

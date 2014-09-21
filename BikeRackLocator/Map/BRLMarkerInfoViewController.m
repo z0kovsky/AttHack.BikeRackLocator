@@ -33,6 +33,10 @@
     if (_bikeSpot) {
         self.nameTextView.text =_bikeSpot.bikeName;
         self.addressTextView.text = _bikeSpot.bikeAddress;
+        self.distanceLabel.text = [NSString stringWithFormat:@"%d feet", 100 + arc4random_uniform(500)];
+        self.numSpotsLabel.text = [NSString stringWithFormat:@"%d spots", 2 + arc4random_uniform(5)];
+        NSString *str = [NSString stringWithFormat:@"spot_%d", 10 + arc4random_uniform(3)];
+        [self.imageView setImage:[UIImage imageNamed:str]];
     }
 }
 
@@ -45,6 +49,13 @@
 - (void)setBikeSpot:(BRLBikeSpot *)bikespot
 {
     _bikeSpot = bikespot;
+}
+
+- (IBAction)backAction:(id)sender {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self dismissViewControllerAnimated:NO completion:nil];
+//        [self.inviteFriendsButton setHidden:true];
+    });
 }
 
 @end

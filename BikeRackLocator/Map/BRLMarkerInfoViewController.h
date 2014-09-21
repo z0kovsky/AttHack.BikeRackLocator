@@ -15,5 +15,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UITextView *nameTextView;
 @property (weak, nonatomic) IBOutlet UITextView *addressTextView;
+@property (weak, nonatomic) IBOutlet UILabel *distanceLabel;
+@property (weak, nonatomic) IBOutlet UILabel *numSpotsLabel;
 
 @end

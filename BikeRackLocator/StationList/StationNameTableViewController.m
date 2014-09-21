@@ -71,17 +71,12 @@
 
 - (void) tableView: (UITableView *)aTableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-        BRLMapViewController *mapController = [[BRLMapViewController alloc] init];
-    
-//        [mapController setTransitStops: ];
-
-        [[self navigationController] pushViewController:mapController animated:YES];
-    
-//    - (void)setTransitStops:(NSMutableArray*)transitStops;
-    
-    
+    BRLMapViewController *mapController = [[BRLMapViewController alloc] init];
+    NSMutableArray *array = [NSMutableArray array];
+    [array addObject:[[[BRLTransitStopStorage sharedStorage] allItems] objectAtIndex:BRL_PA_STATION_INDEX]];
+    [mapController setTransitStops: array];
+//    [[self navigationController] pushViewController:mapController animated:YES];
     [self presentViewController:mapController animated:NO completion:nil];
-
 }
 
     

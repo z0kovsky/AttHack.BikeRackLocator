@@ -263,6 +263,7 @@
 			children = (
 				BFB49FEA19CE3CB4006EE708 /* images */,
 				BFB49FC719CE2F11006EE708 /* icons */,
+				4FF3E77619CE515A004AF3EC /* bike 2.jpeg */,
 				BFB49FB419CE05B9006EE708 /* json */,
 				BFB49FB219CE0348006EE708 /* gpx */,
 				BFB49F6519CDF2E7006EE708 /* BikeRackLocator-Info.plist */,
@@ -488,6 +489,7 @@
 				BFB49F9019CDF59D006EE708 /* BRLMapViewController.xib in Resources */,
 				4F363A4119CE2EB200B5FC68 /* StationNameTableViewController.xib in Resources */,
 				BFB49F7019CDF2E7006EE708 /* Images.xcassets in Resources */,
+				4FF3E77719CE515A004AF3EC /* bike 2.jpeg in Resources */,
 				BFB49FAF19CE016A006EE708 /* GoogleMaps.bundle in Resources */,
 				BFB49FB619CE06F5006EE708 /* transitStop.json in Resources */,
 				BFB49FFE19CE4A4B006EE708 /* ic-safe.png in Resources */,
@@ -640,7 +642,6 @@
 		BFB49F8719CDF2E7006EE708 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -657,7 +658,6 @@
 		BFB49F8819CDF2E7006EE708 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
