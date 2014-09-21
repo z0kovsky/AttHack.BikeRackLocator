@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F363A4019CE2EB200B5FC68 /* StationNameTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F363A3E19CE2EB200B5FC68 /* StationNameTableViewController.m */; };
+		4F363A4119CE2EB200B5FC68 /* StationNameTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F363A3F19CE2EB200B5FC68 /* StationNameTableViewController.xib */; };
+		4FF3E77719CE515A004AF3EC /* bike 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4FF3E77619CE515A004AF3EC /* bike 2.jpeg */; };
 		BFB49F5E19CDF2E7006EE708 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB49F5D19CDF2E7006EE708 /* Foundation.framework */; };
 		BFB49F6019CDF2E7006EE708 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB49F5F19CDF2E7006EE708 /* CoreGraphics.framework */; };
 		BFB49F6219CDF2E7006EE708 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB49F6119CDF2E7006EE708 /* UIKit.framework */; };
@@ -55,6 +58,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F363A3D19CE2EB200B5FC68 /* StationNameTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StationNameTableViewController.h; path = StationList/StationNameTableViewController.h; sourceTree = "<group>"; };
+		4F363A3E19CE2EB200B5FC68 /* StationNameTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StationNameTableViewController.m; path = StationList/StationNameTableViewController.m; sourceTree = "<group>"; };
+		4F363A3F19CE2EB200B5FC68 /* StationNameTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StationNameTableViewController.xib; path = StationList/StationNameTableViewController.xib; sourceTree = "<group>"; };
+		4FF3E77619CE515A004AF3EC /* bike 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bike 2.jpeg"; sourceTree = "<group>"; };
 		BFB49F5A19CDF2E7006EE708 /* BikeRackLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeRackLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB49F5D19CDF2E7006EE708 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFB49F5F19CDF2E7006EE708 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -199,6 +206,7 @@
 		BFB49F6419CDF2E7006EE708 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4FF3E77619CE515A004AF3EC /* bike 2.jpeg */,
 				BFB49FB419CE05B9006EE708 /* json */,
 				BFB49FB219CE0348006EE708 /* gpx */,
 				BFB49F6519CDF2E7006EE708 /* BikeRackLocator-Info.plist */,
@@ -273,6 +281,9 @@
 				BFB49FC219CE294A006EE708 /* BRLStationTypeViewController.h */,
 				BFB49FC319CE294A006EE708 /* BRLStationTypeViewController.m */,
 				BFB49FC419CE294A006EE708 /* BRLStationTypeViewController.xib */,
+				4F363A3D19CE2EB200B5FC68 /* StationNameTableViewController.h */,
+				4F363A3E19CE2EB200B5FC68 /* StationNameTableViewController.m */,
+				4F363A3F19CE2EB200B5FC68 /* StationNameTableViewController.xib */,
 			);
 			name = StationList;
 			sourceTree = "<group>";
@@ -357,7 +368,9 @@
 				BFB49F6819CDF2E7006EE708 /* InfoPlist.strings in Resources */,
 				BFB49FB119CE033E006EE708 /* ATTHack.PaloAlto.Location.gpx in Resources */,
 				BFB49F9019CDF59D006EE708 /* BRLMapViewController.xib in Resources */,
+				4F363A4119CE2EB200B5FC68 /* StationNameTableViewController.xib in Resources */,
 				BFB49F7019CDF2E7006EE708 /* Images.xcassets in Resources */,
+				4FF3E77719CE515A004AF3EC /* bike 2.jpeg in Resources */,
 				BFB49FBF19CE153B006EE708 /* pinsList.json in Resources */,
 				BFB49FAF19CE016A006EE708 /* GoogleMaps.bundle in Resources */,
 				BFB49FB619CE06F5006EE708 /* transitStop.json in Resources */,
@@ -382,6 +395,7 @@
 				BFB49F6A19CDF2E7006EE708 /* main.m in Sources */,
 				BFB49F6E19CDF2E7006EE708 /* BRLAppDelegate.m in Sources */,
 				BFB49FC519CE294A006EE708 /* BRLStationTypeViewController.m in Sources */,
+				4F363A4019CE2EB200B5FC68 /* StationNameTableViewController.m in Sources */,
 				BFB49FBD19CE12CC006EE708 /* BRLTransitStopStorage.m in Sources */,
 				BFB49FBA19CE0F6E006EE708 /* BRLTransitStop.m in Sources */,
 				BFB49F8F19CDF59D006EE708 /* BRLMapViewController.m in Sources */,
@@ -592,6 +606,7 @@
 				BFB49F8819CDF2E7006EE708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFB49F8919CDF2E7006EE708 /* Build configuration list for PBXNativeTarget "BikeRackLocatorTests" */ = {
 			isa = XCConfigurationList;
@@ -600,6 +615,7 @@
 				BFB49F8B19CDF2E7006EE708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,7 @@
 
 #import "BRLStationTypeViewController.h"
 #import "BRLMapViewController.h"
+#import "StationNameTableViewController.h"
 @interface BRLStationTypeViewController ()
 
 @end
@@ -36,10 +37,25 @@
 }
 
 - (IBAction)caltrainAction:(id)sender {
+    
+    StationNameTableViewController *caltrainStations = [[StationNameTableViewController alloc] init];
+    
+    [self presentViewController: caltrainStations animated:NO completion:nil];
+    
+    
+    
     BRLMapViewController *mapController = [[BRLMapViewController alloc] init];
     
     [self presentViewController:mapController animated:NO completion:nil];
+    
+    
+    
+    
+    
 
+}
+- (IBAction)bartAction:(id)sender {
+    
 }
 
 @end
