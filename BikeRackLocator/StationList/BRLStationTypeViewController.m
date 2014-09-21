@@ -52,7 +52,15 @@
     [mapController setTransitStops:transitStopsList];
     
     [self presentViewController:mapController animated:NO completion:nil];
+    
+    
+    
+    
+    
 
+}
+- (IBAction)bartAction:(id)sender {
+    
 }
 
 @end
